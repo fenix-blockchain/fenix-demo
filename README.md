@@ -1,4 +1,4 @@
-# Fenix Blockchain Demo
+# Fenix Blockchain Pipeline Demo
 
 This is a simple demo of using the Fenix Blockchain SDK. It only requires `make` and `docker`.
 
@@ -6,7 +6,7 @@ This is a simple demo of using the Fenix Blockchain SDK. It only requires `make`
 
 ## Environment
 
-You must set a single environment variable for this to work:
+You must set a single environment variable for this to work - create a file in root directory called `.envrc` or `.env` if you're not using pyenv
 
 ```sh
 export FENIX_API_KEY=<key assigned by your representative>
